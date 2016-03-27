@@ -15,6 +15,7 @@
 		F8A330591CA84B71001519AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A330571CA84B71001519AB /* LaunchScreen.storyboard */; };
 		F8A330641CA84B71001519AB /* viewSwappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A330631CA84B71001519AB /* viewSwappingTests.m */; };
 		F8A3306F1CA84B71001519AB /* viewSwappingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3306E1CA84B71001519AB /* viewSwappingUITests.m */; };
+		F8A3307D1CA88584001519AB /* MonsterAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3307C1CA88584001519AB /* MonsterAnimate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F8A3306A1CA84B71001519AB /* viewSwappingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewSwappingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A3306E1CA84B71001519AB /* viewSwappingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewSwappingUITests.m; sourceTree = "<group>"; };
 		F8A330701CA84B71001519AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A3307C1CA88584001519AB /* MonsterAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterAnimate.m; sourceTree = "<group>"; };
+		F8A3307E1CA88598001519AB /* MonsterAnimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonsterAnimate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F8A330571CA84B71001519AB /* LaunchScreen.storyboard */,
 				F8A3305A1CA84B71001519AB /* Info.plist */,
 				F8A330491CA84B71001519AB /* Supporting Files */,
+				F8A3307C1CA88584001519AB /* MonsterAnimate.m */,
+				F8A3307E1CA88598001519AB /* MonsterAnimate.h */,
 			);
 			path = viewSwapping;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				F8A330511CA84B71001519AB /* ViewController.m in Sources */,
 				F8A3304E1CA84B71001519AB /* AppDelegate.m in Sources */,
+				F8A3307D1CA88584001519AB /* MonsterAnimate.m in Sources */,
 				F8A3304B1CA84B71001519AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
