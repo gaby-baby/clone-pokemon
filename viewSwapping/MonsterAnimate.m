@@ -14,7 +14,7 @@
 }
 -(id)initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
-        //self.backgroundColor = color;
+        self.backgroundColor = UIColorFromRGB(0x009ECE);
     }
     return self;
 }
