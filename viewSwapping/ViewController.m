@@ -7,15 +7,18 @@
 //
 
 #import "ViewController.h"
+#import "MonsterAnimate.h"
 
-@interface ViewController ()
+@interface ViewController()
+@property (weak, nonatomic) IBOutlet UIButton *goButton;
+
+
 @end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     self.view.backgroundColor = UIColorFromRGB(0x009ECE);
+    self.view.backgroundColor = UIColorFromRGB(0x009ECE);
     // Do any additional setup after loading the view, typically from a nib.
     
 }
@@ -34,7 +37,7 @@
     // Create and configure the scene.
     SKScene * scene = [MonsterAnimate sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
-    
+    [self.goButton setHidden:TRUE];
     // Present the scene.
     [skView presentScene:scene];
 }

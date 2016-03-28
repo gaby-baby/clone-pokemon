@@ -16,7 +16,7 @@
 		F8A330641CA84B71001519AB /* viewSwappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A330631CA84B71001519AB /* viewSwappingTests.m */; };
 		F8A3306F1CA84B71001519AB /* viewSwappingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3306E1CA84B71001519AB /* viewSwappingUITests.m */; };
 		F8A3307D1CA88584001519AB /* MonsterAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3307C1CA88584001519AB /* MonsterAnimate.m */; };
-		F8A330801CA89A7D001519AB /* standing in Resources */ = {isa = PBXBuildFile; fileRef = F8A3307F1CA89A7D001519AB /* standing */; };
+		F8A330801CA89A7D001519AB /* gumdrop.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F8A3307F1CA89A7D001519AB /* gumdrop.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		F8A330701CA84B71001519AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A3307C1CA88584001519AB /* MonsterAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterAnimate.m; sourceTree = "<group>"; };
 		F8A3307E1CA88598001519AB /* MonsterAnimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonsterAnimate.h; sourceTree = "<group>"; };
-		F8A3307F1CA89A7D001519AB /* standing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = standing; sourceTree = "<group>"; };
+		F8A3307F1CA89A7D001519AB /* gumdrop.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = gumdrop.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		F8A330481CA84B71001519AB /* viewSwapping */ = {
 			isa = PBXGroup;
 			children = (
-				F8A3307F1CA89A7D001519AB /* standing */,
+				F8A3307F1CA89A7D001519AB /* gumdrop.atlas */,
 				F8A3304C1CA84B71001519AB /* AppDelegate.h */,
 				F8A3304D1CA84B71001519AB /* AppDelegate.m */,
 				F8A3304F1CA84B71001519AB /* ViewController.h */,
@@ -251,7 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A330801CA89A7D001519AB /* standing in Resources */,
+				F8A330801CA89A7D001519AB /* gumdrop.atlas in Resources */,
 				F8A330591CA84B71001519AB /* LaunchScreen.storyboard in Resources */,
 				F8A330561CA84B71001519AB /* Assets.xcassets in Resources */,
 				F8A330541CA84B71001519AB /* Main.storyboard in Resources */,
