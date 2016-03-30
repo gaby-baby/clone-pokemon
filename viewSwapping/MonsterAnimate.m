@@ -40,10 +40,16 @@
         //Create bear sprite, setup position in middle of the screen, and add to Scene
         SKTexture *temp = _monsterFrames[0];
         _monster = [SKSpriteNode spriteNodeWithTexture:temp];
-        _monster.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+        _monster.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame)*1.2);
+        _monster.zPosition = 1.0;
         [self addChild:_monster];
         
-        //Start the bear walking
+        SKSpriteNode *goNode = [SKSpriteNode spriteNodeWithImageNamed:@"img/button.png"];
+        goNode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame)*0.2);
+        goNode.name = @"goButtonNode";
+        goNode.zPosition = 2.0;
+        [self addChild:goNode];
+        
         [self moveMonster];
     }
     return self;
