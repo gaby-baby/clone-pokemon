@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.54509803921568623" blue="0.77254901960784317" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="QpZ-I1-afn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gyc-3E-seX"/>
                             <constraint firstItem="QpZ-I1-afn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kP8-yd-qfQ"/>

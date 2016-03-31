@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F83DB5A01CAB42F900D55743 /* img in Resources */ = {isa = PBXBuildFile; fileRef = F83DB59F1CAB42F900D55743 /* img */; };
+		F888C3F61CAC87A800E61441 /* img in Resources */ = {isa = PBXBuildFile; fileRef = F888C3F51CAC87A800E61441 /* img */; };
 		F8A3304B1CA84B71001519AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3304A1CA84B71001519AB /* main.m */; };
 		F8A3304E1CA84B71001519AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3304D1CA84B71001519AB /* AppDelegate.m */; };
 		F8A330511CA84B71001519AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A330501CA84B71001519AB /* ViewController.m */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F83DB59F1CAB42F900D55743 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../../../../../../Users/labnet3/st1/g25gal/Downloads/viewSwapping/viewSwapping/img; sourceTree = "<group>"; };
+		F888C3F51CAC87A800E61441 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 		F8A330461CA84B71001519AB /* viewSwapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewSwapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A3304A1CA84B71001519AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8A3304C1CA84B71001519AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		F8A330481CA84B71001519AB /* viewSwapping */ = {
 			isa = PBXGroup;
 			children = (
-				F83DB59F1CAB42F900D55743 /* img */,
+				F888C3F51CAC87A800E61441 /* img */,
 				F8A3307F1CA89A7D001519AB /* gumdrop.atlas */,
 				F8A3304C1CA84B71001519AB /* AppDelegate.h */,
 				F8A3304D1CA84B71001519AB /* AppDelegate.m */,
@@ -255,7 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F83DB5A01CAB42F900D55743 /* img in Resources */,
+				F888C3F61CAC87A800E61441 /* img in Resources */,
 				F8A330801CA89A7D001519AB /* gumdrop.atlas in Resources */,
 				F8A330591CA84B71001519AB /* LaunchScreen.storyboard in Resources */,
 				F8A330561CA84B71001519AB /* Assets.xcassets in Resources */,
