@@ -38,10 +38,14 @@
         yTotal=0.0;
         zTotal=0.0;
         
+
+        NSArray *monsterNames = [NSArray arrayWithObjects:@"gumdrop",@"worm",@"pink",@"whitey",@"smug",@"crazedRed",@"gumball",@"cryBaby", nil];
+        int r = arc4random_uniform([monsterNames count]-1);
+        
         
         //Create Sprite Array
         NSMutableArray *standFrames = [NSMutableArray array];
-        SKTextureAtlas *gumdropAnimatedAtlas = [SKTextureAtlas atlasNamed:@"gumdrop"];
+        SKTextureAtlas *gumdropAnimatedAtlas = [SKTextureAtlas atlasNamed:monsterNames[r]];
         //Load the animation frames from the TextureAtlas
         int numImages = gumdropAnimatedAtlas.textureNames.count;
         for (int i=1; i <= numImages; i++) {
@@ -99,10 +103,12 @@
         id shake = [SKAction runBlock:^{
             hello.text=@"SHAKE!!";
         }];
-        [hello runAction:[SKAction sequence:@[prep,scaleup,scaledown,hide,prep,scaleup,scaledown,hide,prep,scaleup,[SKAction scaleTo:3.0 duration:0.2],shake,[SKAction runBlock:^{
+        id beep = [SKAction playSoundFileNamed:@"Beep-SoundBible.com-923660219.wav" waitForCompletion:NO];
+        [hello runAction:[SKAction sequence:@[prep,beep,scaleup,scaledown,hide,beep,scaleup,scaledown,hide,prep,beep,scaleup,[SKAction scaleTo:3.0 duration:0.2],shake,[SKAction playSoundFileNamed:@"beep-11.wav" waitForCompletion:NO],
+                                              [SKAction runBlock:^{
             [self.motionManager startDeviceMotionUpdatesUsingReferenceFrame:CMAttitudeReferenceFrameXArbitraryCorrectedZVertical];
             shakeTimer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateDeviceMotion) userInfo:nil repeats:YES];
-            [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(killtimer) userInfo:nil repeats:NO];
+            [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(killtimer) userInfo:nil repeats:NO];
         }]
         ]]];
         

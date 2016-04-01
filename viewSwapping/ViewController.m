@@ -31,12 +31,12 @@
 - (IBAction)startAnimation{
     // Configure the view.
     
-    SKView * skView = (SKView *)self.view;
+    SKView * skView = (SKView *) self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [MonsterAnimate sceneWithSize:skView.bounds.size];
+    SKScene * scene = [MonsterAnimate sceneWithSize:self.view.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     [self.goButton setHidden:TRUE];
     // Present the scene.

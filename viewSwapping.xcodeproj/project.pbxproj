@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F888C3F61CAC87A800E61441 /* img in Resources */ = {isa = PBXBuildFile; fileRef = F888C3F51CAC87A800E61441 /* img */; };
+		F888C3FC1CAE038500E61441 /* beep-11.wav in Resources */ = {isa = PBXBuildFile; fileRef = F888C3FB1CAE038500E61441 /* beep-11.wav */; };
+		F888C3FE1CAE03AE00E61441 /* worm.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C3FD1CAE03AE00E61441 /* worm.atlas */; };
+		F888C4001CAE051A00E61441 /* Beep-SoundBible.com-923660219.wav in Resources */ = {isa = PBXBuildFile; fileRef = F888C3FF1CAE051A00E61441 /* Beep-SoundBible.com-923660219.wav */; };
+		F888C4021CAE05BB00E61441 /* gumball.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4011CAE05BB00E61441 /* gumball.atlas */; };
+		F888C4061CAE070900E61441 /* cryBaby.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4051CAE070900E61441 /* cryBaby.atlas */; };
+		F888C4081CAE074400E61441 /* pink.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4071CAE074400E61441 /* pink.atlas */; };
+		F888C40A1CAE079F00E61441 /* crazedRed.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C4091CAE079F00E61441 /* crazedRed.atlas */; };
+		F888C40C1CAE081400E61441 /* smug.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C40B1CAE081400E61441 /* smug.atlas */; };
+		F888C40E1CAE084900E61441 /* whitey.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F888C40D1CAE084900E61441 /* whitey.atlas */; };
 		F8A3304B1CA84B71001519AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3304A1CA84B71001519AB /* main.m */; };
 		F8A3304E1CA84B71001519AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A3304D1CA84B71001519AB /* AppDelegate.m */; };
 		F8A330511CA84B71001519AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A330501CA84B71001519AB /* ViewController.m */; };
@@ -39,6 +48,15 @@
 
 /* Begin PBXFileReference section */
 		F888C3F51CAC87A800E61441 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		F888C3FB1CAE038500E61441 /* beep-11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-11.wav"; sourceTree = "<group>"; };
+		F888C3FD1CAE03AE00E61441 /* worm.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = worm.atlas; sourceTree = "<group>"; };
+		F888C3FF1CAE051A00E61441 /* Beep-SoundBible.com-923660219.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Beep-SoundBible.com-923660219.wav"; sourceTree = "<group>"; };
+		F888C4011CAE05BB00E61441 /* gumball.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = gumball.atlas; sourceTree = "<group>"; };
+		F888C4051CAE070900E61441 /* cryBaby.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cryBaby.atlas; sourceTree = "<group>"; };
+		F888C4071CAE074400E61441 /* pink.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = pink.atlas; sourceTree = "<group>"; };
+		F888C4091CAE079F00E61441 /* crazedRed.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = crazedRed.atlas; sourceTree = "<group>"; };
+		F888C40B1CAE081400E61441 /* smug.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = smug.atlas; sourceTree = "<group>"; };
+		F888C40D1CAE084900E61441 /* whitey.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = whitey.atlas; sourceTree = "<group>"; };
 		F8A330461CA84B71001519AB /* viewSwapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewSwapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A3304A1CA84B71001519AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8A3304C1CA84B71001519AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,13 +126,22 @@
 		F8A330481CA84B71001519AB /* viewSwapping */ = {
 			isa = PBXGroup;
 			children = (
+				F888C3FD1CAE03AE00E61441 /* worm.atlas */,
 				F888C3F51CAC87A800E61441 /* img */,
 				F8A3307F1CA89A7D001519AB /* gumdrop.atlas */,
 				F8A3304C1CA84B71001519AB /* AppDelegate.h */,
+				F888C4091CAE079F00E61441 /* crazedRed.atlas */,
+				F888C4011CAE05BB00E61441 /* gumball.atlas */,
+				F888C3FB1CAE038500E61441 /* beep-11.wav */,
+				F888C3FF1CAE051A00E61441 /* Beep-SoundBible.com-923660219.wav */,
+				F888C40B1CAE081400E61441 /* smug.atlas */,
 				F8A3304D1CA84B71001519AB /* AppDelegate.m */,
+				F888C4071CAE074400E61441 /* pink.atlas */,
 				F8A3304F1CA84B71001519AB /* ViewController.h */,
+				F888C40D1CAE084900E61441 /* whitey.atlas */,
 				F8A330501CA84B71001519AB /* ViewController.m */,
 				F8A330521CA84B71001519AB /* Main.storyboard */,
+				F888C4051CAE070900E61441 /* cryBaby.atlas */,
 				F8A330551CA84B71001519AB /* Assets.xcassets */,
 				F8A330571CA84B71001519AB /* LaunchScreen.storyboard */,
 				F8A3305A1CA84B71001519AB /* Info.plist */,
@@ -257,9 +284,18 @@
 			files = (
 				F888C3F61CAC87A800E61441 /* img in Resources */,
 				F8A330801CA89A7D001519AB /* gumdrop.atlas in Resources */,
+				F888C4061CAE070900E61441 /* cryBaby.atlas in Resources */,
+				F888C40E1CAE084900E61441 /* whitey.atlas in Resources */,
+				F888C3FE1CAE03AE00E61441 /* worm.atlas in Resources */,
+				F888C4081CAE074400E61441 /* pink.atlas in Resources */,
 				F8A330591CA84B71001519AB /* LaunchScreen.storyboard in Resources */,
 				F8A330561CA84B71001519AB /* Assets.xcassets in Resources */,
+				F888C40C1CAE081400E61441 /* smug.atlas in Resources */,
 				F8A330541CA84B71001519AB /* Main.storyboard in Resources */,
+				F888C4021CAE05BB00E61441 /* gumball.atlas in Resources */,
+				F888C3FC1CAE038500E61441 /* beep-11.wav in Resources */,
+				F888C40A1CAE079F00E61441 /* crazedRed.atlas in Resources */,
+				F888C4001CAE051A00E61441 /* Beep-SoundBible.com-923660219.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
